@@ -5,8 +5,8 @@ canvas:
   # Exclude the following files/folders from uploading. Canvas Workflow gives
   # precedence to include over exclude, so you can selectively include
   # files/folders that exist in excluded directories.
-  # exclude:
-  #   - files/lectures/**/notes.txt
+  exclude:
+    - README.md
   # Selectively include files/folders that have been previously excluded.
   # include:
   #   - files/slides/**/*-final.pdf
@@ -16,6 +16,7 @@ canvas:
 exclude:
   - AUTHORS
   - LICENSE
+  - README.md
   - files
   - Gemfile*
   - vendor
